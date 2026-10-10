@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Information about a personal rclone integration for Google Drive file storage and Plex playback.">
+<title>Home | plexserver-rclone</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<a class="brand" href="index.html">plexserver-rclone</a>
+<nav aria-label="Main navigation"><a href="index.html">Home</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
+</header>
+<main>
+<p class="eyebrow">Personal Google Drive integration</p>
+<h1>plexserver-rclone</h1>
+<p class="lead">A personal installation of rclone that connects its owner's Google Drive account to local file storage and Plex media playback.</p>
+<h2>What the integration does</h2>
+<p>With the account owner's authorization, rclone uploads selected files and their related folders to Google Drive. It can read those files back through a filesystem mount so local software, including Plex, can play them. The owner controls transfers, caching, and file removal.</p>
+<h2>Google account access</h2>
+<p>This installation requests the <code>drive.file</code> permission. It is intended to work with files and folders created through this installation, including their names, sizes, timestamps, checksums when available, and contents. Authorization happens through Google's sign-in and consent flow.</p>
+<div class="note"><p>This website provides information about the integration. It has no sign-in form and does not access visitors' Google Drive accounts.</p></div>
+<h2>Privacy and contact</h2>
+<p>Read the <a href="privacy.html">Privacy Policy</a> for information about access, storage, retention, and revoking authorization, and the <a href="terms.html">Terms of Use</a> for the scope of this personal setup.</p>
+<p>Questions can be sent through the <a href="https://github.com/d3funct/plexserver-rclone/issues">project's issue tracker</a>. Issues are public; do not include credentials or private file details.</p>
+<p class="muted">This is an independent personal configuration using <a href="https://rclone.org/">rclone</a>. It is not an official Google or Plex service.</p>
+</main>
+<footer><span>Personal integration maintained by <a href="https://github.com/d3funct">d3funct</a>.</span><a href="https://github.com/d3funct/plexserver-rclone/issues">Contact the maintainer</a></footer>
+</body>
+</html>
